@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BINAR CAR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="background">
+
+<!-- NAVBAR -->
+
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ms-md-auto fixed-top">
+            <div class="container-fluid">
+                <div class="logo2"></div>
+                    <img src="img/fi_menu.png" alt="" class="fimenu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> 
+                    <li class="nav-item"> 
+                        <form class="d-flex" id="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-outline-primary" type="submit">Search</button>
+                        </form> 
+                    </li> 
+                    <li class="nav-item"> 
+                        <img src="img/me.jpeg" alt="" class="rounded-circle me">
+                    </li> 
+                    <li class="nav-item dropdown"> 
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+                        Octavia N Lestari
+                      </a> 
+                      <ul class="dropdown-menu"> 
+                        <li><a class="dropdown-item" href="#">Action</a></li> 
+                        <li><a class="dropdown-item" href="#">Another action</a></li> 
+                        <li><hr class="dropdown-divider"></li> 
+                        <li><a class="dropdown-item" href="#">Something else here</a></li> 
+                      </ul> 
+                    </li> 
+                  </ul>
+            </div>
+        </nav>
+    </section>
+
+<!-- SIDE BAR -->
+
+<section>
+    <div class="sidebar">
+        <center>
+        <img class="logo1" href="img/logo1.jpg" />
+          <p><img class="home" src="img/home.png" />Dashboard</p>
+          <p><img class="truck" src="img/truck.png" />Cars</p>
+        </center>
+    </div>
+</section>
+
+<!-- MAIN MENU -->
+
+<section>
+    <div class="mainmenu">
+      <div class="menu">
+        <p>CARS</p><br>
+        <p>LIST CARS</p>
+      </div>
+    </div>
+</section>
+
+<!-- FILTER -->
+
+<div class="container mt-5 col-md-9">
+    <div style="margin-left: 150px;">
+        <div class="row row-cols-auto justify-content-between d-flex">
+            <div class="b-left col">
+                <div class="link-nav">
+                    <a href="#" class="link-nav-car">Cars</a>
+                    <img src="img/right.png" alt="" class="right">
+                    <a href="#" class="link-nav-list-car">List Car</a>
+                    <img src="img/right.png" alt="" class="right">
+                    <a href="add.html" class="link-nav-list-car">Add New Car</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- TITLE -->
+
+<section>
+    <div class="container col-md-6">
+      <b><h5 class="addnew">Add New car</h5></b>
+    </div>
+  </section>
+
+<!-- FORM INPUT DATA CAR -->
+
+<div class="squareaddnew">
+    <form action="/add" class="input" method="post" enctype="multipart/form-data">
+        <div class="row">
+            <label for="" class="label">Nama*</label>
+            <input type="text" placeholder="masukan nama" class="form" name="nama">
+        </div><br>
+        <div class="row">
+            <label for="" class="label">Sewa Per Hari*</label>
+            <input type="text" placeholder="masukan sewa/hari" class="form" name="harga">
+        </div><br>
+        <div class="row">
+            <label for="" class="label">Ukuran*</label>
+            <input type="text" placeholder="masukan ukuran" class="form" name="ukuran">
+        </div><br>
+        <div class="row">
+            <label for="" class="label">Foto*</label>
+            <input type="file" placeholder="upload foto" class="form" name="gambar">
+        </div>
+        <button class="btncancel">Cancel</button>
+        <button type="submit" class="btnsave">Save</button>
+    </form>
+</div>
+
+
+
+</body>
+</html>

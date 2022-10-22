@@ -1,0 +1,295 @@
+.background {
+    background: #f8f8f8;
+}
+.sidebar p {
+    color: #ffffff;
+    font-size: 12px;
+}
+  
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 75px;
+    height: 100%;
+    background: #0d28a6;
+    top: -10px;
+}
+.logo1{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 20px;
+    top: 18px;
+    background: #cfd4ed;
+}
+.home {
+    display: block;
+    padding-top: 120%;
+}
+.truck {
+    display: block;
+    margin-top: 25px;
+}
+.mainmenu {
+    position: fixed;
+    left: 76px;
+    right: 79%;
+    height: 100%;
+    background: #ffffff;
+}
+.menu {
+    padding-left: 10%;
+    margin-top: 45px;
+    font-family: "IBM Plex Sans";
+}
+.logo2 {
+    width: 100px;
+    height: 34px;
+    left: 120px;
+    top: 18px;
+    background: #cfd4ed;
+    margin-left: 120px;
+}
+.fimenu {
+    margin-left: 70px;
+}
+.me {
+    height: 35px;
+    width: 35px;
+    margin-left: 15px;
+}
+.card {
+    padding: 20px;
+}
+.updatetext {
+    font-size: small;
+}
+.judul {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 27px;
+    margin-bottom: 24px;
+}
+.link-nav-car {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    text-decoration: none;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.link-nav-list-car {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #222222;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.right {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.judul {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 27px;
+    margin-bottom: 24px;
+}
+
+.buttonfilter {
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+    background: #FFFFFF;
+    border: 1px solid #AEB7E1;
+    border-radius: 2px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-right: 16px;
+    /* text */
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.buttonright {
+    padding-top: 49px;
+}
+
+.addbutton {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 12px;
+
+    min-width: 140px;
+    height: 36px;
+    left: 1274px;
+    top: 144px;
+
+    /* Primary/DarkBlue/04 */
+
+    background: #0D28A6;
+    border-radius: 2px;
+
+    /* text */
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    /* Neutral/10 */
+
+    color: #FFFFFF;
+}
+.addnew {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.squareaddnew {
+    padding: 16px;
+    gap: 10px;
+    position: absolute;
+    width: 900px;
+    height: 270px;
+    left: 315px;
+    top: 220px;
+    background: #FFFFFF;
+    border-radius: 2px;
+}
+.input {
+    padding-top: 15px;
+}
+.form {
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans';
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 9px 12px;
+    gap: 8px;
+    
+    width: 339px;
+    height: 36px;
+
+    /* Neutral/01 */
+
+    background: #FFFFFF;
+    /* Neutral/02 */
+
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.label {
+    width: 147px;
+    height: 18px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+
+    /* Neutral/04 */
+
+    color: #3C3C3C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.btncancel {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+
+    position: absolute;
+    width: 69px;
+    height: 36px;
+    left: 315px;
+    top: 600px;
+
+    /* Neutral/10 */
+
+    background: #FFFFFF;
+    /* Primary/DarkBlue/04 */
+
+    border: 1px solid #0D28A6;
+    border-radius: 2px;
+}
+.btnsave {
+    box-sizing: border-box;
+    
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+
+    position: absolute;
+    width: 69px;
+    height: 36px;
+    left: 400px;
+    top: 600px;
+
+    /* Neutral/10 */
+
+    background: #0D28A6;
+    /* Primary/DarkBlue/04 */
+}
